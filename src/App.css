@@ -82,13 +82,30 @@
     .title {
         font-size: 60px;
     }
-
     .main h2 {
         font-size: 28px;
     }
-
     .main {
         width: 80%;
         min-height: 250px;
     }
+}
+
+.button-clear {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+  }
+
+  .button-clear:hover {
+    transform: scale(1.1);
 }
